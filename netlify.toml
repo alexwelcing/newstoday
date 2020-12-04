@@ -1,5 +1,5 @@
 [build]
   publish = "dist"
-  command = "yarn generate"
+  command = "npm run generate"
 [build.environment]
   NODE_VERSION = "11"

@@ -8,17 +8,14 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>Cannabis in the Stock Market</h3>
           <p>
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              These charts and trackers are just intended to summarize market behavior and act as a reference for editorial analysis.
             </strong>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Quotes are not sourced from all markets and may be delayed up to 20 minutes. Information is provided 'as is' and solely for informational purposes, not for trading purposes or advice.
           </p>
 
           <h3>Another Fake Heading</h3>
@@ -99,7 +96,7 @@ import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
-      title: `About | ${this.$siteConfig.siteName}`
+      title: `Cannabis Stock | ${this.$siteConfig.siteName}`
     }
   },
   components: { QuoteCard }
