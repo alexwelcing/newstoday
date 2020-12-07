@@ -1,8 +1,8 @@
 {
-  "name": "nuxtlify",
-  "version": "1.0.0",
-  "description": "Blog template for Nuxt.js/Netlify",
-  "author": "Daniel Kelly",
+  "name": "ouidtoday",
+  "version": "0.2.1",
+  "description": "Netlify/NuxtJS blog adapted from Daniel Kelly",
+  "author": "Alex Welcing",
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
